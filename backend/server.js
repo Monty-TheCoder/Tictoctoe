@@ -9,7 +9,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
     cors: {
-        origin: "https://44d7-202-131-112-74.ngrok-free.app"
+        origin: "https://tictoctoebyskp.netlify.app/"
     },
 });
 let arr = new Array(9).fill('')
